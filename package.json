@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mysql": "^2.18.1",
+    "puppeteer": "^20.8.2",
+    "selenium-webdriver": "^4.10.0"
+  },
+  "name": "nasflix",
+  "version": "1.0.0",
+  "description": "A simple scrapper to download movies.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./test"
+  },
+  "author": "Julien Geneste",
+  "license": "ISC"
+}
